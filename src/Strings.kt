@@ -24,11 +24,12 @@ fun main() {
     val num = 6
     val stringNum = num.toString()
     println(stringNum)*/
-    val subsequece = str.subSequence(4,13)
-    println(subsequece)
+    val subsequence = str.subSequence(4,13)
+    println(subsequence)
     val luke = "Luke Skywalker"
     val lightSaberColor = "green"
     val vehicle = "landspeeder"
 
     println("$luke has a $lightSaberColor lightsaber and drives a $vehicle")
+    println("Luke's full name $luke has ${luke.length} characters")
 }
